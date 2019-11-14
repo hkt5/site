@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14dac2e7-929b-461d-83fe-ff144971f3d9" name="Default Changelist" comment="" />
+    <list default="true" id="14dac2e7-929b-461d-83fe-ff144971f3d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/CandidateFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/CandidateFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/CandidateSubmission.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/CandidateSubmission.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserSubmission.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserSubmission.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/OfferFile.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/OfferFile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ExpectedSalariesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ExpectedSalariesTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/SoftwareDevelopmentLanguagesSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SoftwareDevelopmentLanguagesSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/SoftwareDevelopmentSkillsTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SoftwareDevelopmentSkillsTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/porto/img/bg-corporate-14-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/porto/img/bg-corporate-14-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/porto/img/page-header/page-header-parallax.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/porto/img/page-header/page-header-parallax.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/porto/img/page-header/page-header-services.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/porto/img/page-header/page-header-services.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/porto/img/slides/slide-corporate-14-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/porto/img/slides/slide-corporate-14-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/candidates.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/candidates.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/outsourcing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/outsourcing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/php.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/php.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/services.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/services.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/software-development.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/software-development.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/talents.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/talents.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +39,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -121,8 +150,9 @@
   </component>
   <component name="ProjectId" id="1StYIcpu0lqu5EGwdwxbe7TH5xh" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../upload" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
@@ -165,18 +195,30 @@
       <workItem from="1572683108713" duration="14721000" />
       <workItem from="1572798585015" duration="22249000" />
       <workItem from="1572946717429" duration="632000" />
+      <workItem from="1573748073277" duration="10462000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/talents.blade.php</url>
-          <line>342</line>
+          <line>300</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

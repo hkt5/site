@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\DB;
 
 class ExpectedSalariesTableSeeder extends Seeder
 {
-    private array $salaries = [
+    private $salaries = [
         '0' => 'Less than 25 USD peer hour',
         '1' => 'Moore than 25 USD peer hour',
         '2' => 'Moore than 50 USD peer hour',

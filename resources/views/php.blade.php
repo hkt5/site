@@ -6,10 +6,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>SilenceOnTheWire - software butik</title>
+    <title>SilenceOnTheWire - php software house</title>
 
     <meta name="keywords" content="php, laravel, lumen, symfony, zend3, jekyll, java, play framework" />
-    <meta name="description" content="Najlepsza firma programistyczna, tworząca niesamowite aplikacje, zapewnia niesamowite rozwiązania za pomocą PHP, MVC, Symfony, Laravel. Uzyskaj wysokiej jakości usługi po niskich kosztach.">
+    <meta name="description" content="SilenceOntheWire has profound experience designing, building and deploying fault-tolerant PHP solutions for companies across a variety of industries including healthcare, finance, edutech, manufacturing, transportation and media.">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('porto/img/favicon.ico') }}" type="image/x-icon" />
@@ -64,7 +64,7 @@
                     <div class="header-row">
                         <div class="header-logo">
                             <a href="">
-                                <img alt="SilenceSite" width="200" height="96" data-sticky-width="82" data-sticky-height="40" data-sticky-top="25" src="">
+                                <img alt="SilenceOntheWire" width="200" height="96" data-sticky-width="164" data-sticky-height="80" src="{{ asset('porto/img/logo-jasne.png') }}">
                             </a>
                         </div>
                     </div>
@@ -86,35 +86,9 @@
                         <div class="header-nav pt-1">
                             <div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1">
                                 <nav class="collapse">
-                                    <ul class="nav nav-pills" id="mainNav">
-                                        <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="/">
-                                                Home
-                                            </a>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="/services">
-                                                Services
-                                            </a>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="/php-software-development">
-                                                PHP Software Development
-                                            </a>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a class="dropdown-item dropdown-toggle" href="/talents">
-                                                Human resources
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    @include('site.menu')
                                 </nav>
                             </div>
-                            <ul class="header-social-icons social-icons d-none d-sm-block">
-                                <li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                <li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                                <li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
                             <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
                                 <i class="fas fa-bars"></i>
                             </button>
@@ -307,29 +281,8 @@
     </section>
 
 </div>
+@include('site.footer')
 
-<footer id="footer">
-    <div class="container">
-        <div class="footer-ribbon">
-            <span>Get In Touch</span>
-        </div>
-
-    </div>
-    <div class="footer-copyright">
-        <div class="container py-2">
-            <div class="row py-4">
-                <div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
-                    <a href="/" class="logo pr-0 pr-lg-3">
-                        <img alt="Porto Website Template" src="img/logo-ciemne.png" class="opacity-5" height="33">
-                    </a>
-                </div>
-                <div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
-                    <p>© Copyright 2019. All Rights Reserved.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
 
 <!-- Vendor -->
 <script src="{{ asset('porto/vendor/jquery/jquery.min.js') }}"></script>

@@ -11,12 +11,6 @@ class CandidateFile extends Model
     protected $table = 'candidate_files';
     protected $primaryKey = 'id';
 
-    public int $id;
-    public string $name;
-    public File $file;
-    public string $mime;
-    public string $size;
-
     /**
      * The attributes that are mass assignable.
      *

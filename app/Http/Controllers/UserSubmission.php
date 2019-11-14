@@ -15,4 +15,10 @@ class UserSubmission extends Controller
 
 
     }
+
+    public function customerSubmission(CandidateSubmissionRequest $request)
+    {
+
+
+    }
 }

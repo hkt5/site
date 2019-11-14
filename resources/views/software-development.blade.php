@@ -9,7 +9,7 @@
     <title>SilenceOnTheWire - software house</title>
 
     <meta name="keywords" content="php, laravel, lumen, symfony, zend3, jekyll, java, play framework" />
-    <meta name="description" content="Najlepsza firma programistyczna, tworząca niesamowite aplikacje, zapewnia niesamowite rozwiązania za pomocą PHP, MVC, Symfony, Laravel. Uzyskaj wysokiej jakości usługi po niskich kosztach.">
+    <meta name="description" content="We are a digital agency combining software house services with the best marketing and design solutions. Offering web development, graphic designing and digital marketing, we will help you in gaining a competitive edge in your field.">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="{{ asset('porto/img/favicon.ico') }}" type="image/x-icon" />
@@ -94,7 +94,7 @@
                         <div class="header-row">
                             <div class="header-logo">
                                 <a href="/">
-                                    <img alt="SilenceSite" width="164" height="80" src="img/logo-ciemne.png}">
+                                    <img alt="SilenceOntheWire" width="200" height="96" data-sticky-width="164" data-sticky-height="80" src="{{ asset('porto/img/logo-ciemne.png') }}">
                                 </a>
                             </div>
                         </div>
@@ -104,28 +104,7 @@
                             <div class="header-nav header-nav-links header-nav-dropdowns-dark header-nav-light-text order-2 order-lg-1">
                                 <div class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
                                     <nav class="collapse">
-                                        <ul class="nav nav-pills" id="mainNav">
-                                            <li class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle" href="">
-                                                    Home
-                                                </a>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle" href="/services">
-                                                    Services
-                                                </a>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle" href="/php-software-development">
-                                                    PHP Software Development
-                                                </a>
-                                            </li>
-                                            <li class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle" href="/talents">
-                                                    Human resources
-                                                </a>
-                                            </li>
-                                        </ul>
+                                        @include('site.menu')
                                     </nav>
                                 </div>
                                 <button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
@@ -318,28 +297,7 @@
 </div>
 
 
-<footer id="footer">
-    <div class="container">
-        <div class="footer-ribbon">
-            <span>Get In Touch</span>
-        </div>
-
-    </div>
-    <div class="footer-copyright">
-        <div class="container py-2">
-            <div class="row py-4">
-                <div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
-                    <a href="/" class="logo pr-0 pr-lg-3">
-                        <img alt="Porto Website Template" src="img/logo-ciemne.png" class="opacity-5" height="33">
-                    </a>
-                </div>
-                <div class="col-lg-7 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
-                    <p>© Copyright 2019. All Rights Reserved.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
+@include('site.footer')
 
 <!-- Vendor -->
 <script src="{{ asset('porto/vendor/jquery/jquery.min.js') }}"></script>

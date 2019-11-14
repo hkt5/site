@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('software-development');
 });
 Route::get('/services', 'ServiceController@services')->name('services');
 Route::get('/services/php', 'ServiceController@php')->name('php');

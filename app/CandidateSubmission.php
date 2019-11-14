@@ -10,16 +10,6 @@ class CandidateSubmission extends Model
     protected $table = 'candidate_submissions';
     protected $primaryKey = 'id';
 
-    public int $id;
-    public string $name;
-    public string $surname;
-    public string $phone;
-    public string $email;
-    public int $skill;
-    public int $file;
-    public int $experience;
-    public int $salary;
-    public string $description;
 
     /**
      * The attributes that are mass assignable.

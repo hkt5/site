@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\DB;
 class SoftwareDevelopmentSkillsTableSeeder extends Seeder
 {
 
-    private array $skills = [
+    private $skills = [
         '0' => 'Junior',
         '1' => 'Regular',
         '3' => 'Senior',

@@ -5,7 +5,7 @@ use Illuminate\Support\Facades\DB;
 
 class SoftwareDevelopmentLanguagesSeeder extends Seeder
 {
-    private array $languages_array = [
+    private $languages_array = [
         '0' => 'JavaScript',
         '1' => 'TypeScript',
         '2' => 'Python',

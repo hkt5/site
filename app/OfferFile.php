@@ -10,12 +10,6 @@ class OfferFile extends Model
     protected $table = 'offer_files';
     protected $primaryKey = 'id';
 
-    protected int $id;
-    protected string $name;
-    protected $file;
-    protected string $mime;
-    protected string $size;
-
     /**
      * The attributes that are mass assignable.
      *
